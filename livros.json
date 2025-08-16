@@ -1,0 +1,607 @@
+{
+    "livros": [
+        {
+            "id": 1,
+            "titulo": "O Código Da Vinci",
+            "autor": "Dan Brown",
+            "genero": "Best-sellers",
+            "preco": 39.90,
+            "sinopse": "Robert Langdon, um professor de simbologia de Harvard, é chamado a investigar o assassinato misterioso do curador do Museu do Louvre. Ao lado da criptóloga Sophie Neveu, ele segue pistas ocultas em obras de arte renascentistas, revelando um segredo milenar que poderia abalar os alicerces do Cristianismo. Em uma corrida contra o tempo, Langdon e Sophie enfrentam a ameaça de uma organização secreta determinada a proteger este segredo a qualquer custo. Repleto de enigmas complexos, perseguições emocionantes e conspirações religiosas, este thriller envolvente explora a interseção entre história, arte e mistério.",
+            "capa": "https://a-static.mlcdn.com.br/800x560/livro-o-codigo-da-vinci-robert-langdon-livro-2/magazineluiza/089299600/9d4dbf21f0f6636ab5cb3952da44ca63.jpg"
+        },
+        {
+            "id": 2,
+            "titulo": "A Garota no Trem",
+            "autor": "Paula Hawkins",
+            "genero": "Best-sellers",
+            "preco": 34.50,
+            "sinopse": "Rachel Watson pega o mesmo trem todas as manhãs, observando pela janela um casal aparentemente perfeito em sua casa de sonho. Porém, quando vê algo chocante, ela se vê envolvida em um mistério angustiante. Ao tentar descobrir a verdade, Rachel mergulha em um mundo de segredos obscuros, mentiras e traições. Sua própria vida se entrelaça com o destino do casal e, enquanto desvenda as camadas de sua memória fragmentada, percebe que pode estar mais envolvida do que jamais imaginou. Um suspense psicológico eletrizante que desafia as percepções de verdade e ilusão.",
+            "capa": "https://m.media-amazon.com/images/I/A1veR5tElLL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": 3,
+            "titulo": "O Alquimista",
+            "autor": "Paulo Coelho",
+            "genero": "Best-sellers",
+            "preco": 29.90,
+            "sinopse": "Santiago, um jovem pastor andaluz, sonha repetidamente com um tesouro escondido nas Pirâmides do Egito. Convencido de que é um presságio, ele abandona tudo para seguir sua Lenda Pessoal. Em sua jornada, encontra personagens enigmáticos, como um rei misterioso, um comerciante de cristais e um alquimista sábio que o guia na busca pelo autoconhecimento. Entre desafios e descobertas, Santiago aprende que o verdadeiro tesouro está em sua jornada interior. Uma fábula espiritual que explora temas de destino, propósito e a conexão entre o universo e os sonhos humanos.",
+            "capa": "https://m.media-amazon.com/images/I/81slUinjTlS.jpg"
+        },
+        {
+            "id": 4,
+            "titulo": "Jogos Vorazes",
+            "autor": "Suzanne Collins",
+            "genero": "Best-sellers",
+            "preco": 42.90,
+            "sinopse": "Em um futuro distópico, a nação de Panem é dividida em doze distritos, controlados com mão de ferro pela Capital. Como punição por uma rebelião passada, cada distrito é obrigado a enviar um garoto e uma garota para os Jogos Vorazes, um reality show brutal onde apenas um sai vivo. Katniss Everdeen se oferece como tributo no lugar de sua irmã, embarcando em uma batalha pela sobrevivência. Enquanto enfrenta inimigos mortais e uma Capital manipuladora, Katniss se torna o símbolo de esperança e revolução. Uma saga emocionante sobre coragem, sacrifício e o poder da resistência.",
+            "capa": "https://m.media-amazon.com/images/I/61zBhzjS4LL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": 5,
+            "titulo": "O Caçador de Pipas",
+            "autor": "Khaled Hosseini",
+            "genero": "Best-sellers",
+            "preco": 37.00,
+            "sinopse": "Amir e Hassan cresceram juntos em Cabul, Afeganistão, mas pertencem a mundos diferentes. Amir, filho de um rico comerciante, e Hassan, o filho leal de um servo, compartilham um vínculo inseparável. No entanto, um ato de covardia e traição destrói essa amizade, assombrando Amir por toda a vida. Anos depois, já adulto e vivendo nos EUA, Amir retorna ao Afeganistão devastado pela guerra para buscar redenção. Uma história comovente sobre amor, culpa, perdão e o poder de expiação, explorando a complexidade das relações humanas e as consequências das escolhas.",
+            "capa": "https://m.media-amazon.com/images/I/81yVzXTgLzL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": 6,
+            "titulo": "A Culpa é das Estrelas",
+            "autor": "John Green",
+            "genero": "Best-sellers",
+            "preco": 35.50,
+            "sinopse": "Hazel Grace Lancaster é uma adolescente vivendo com câncer terminal, resignada à sua condição. Ao participar de um grupo de apoio, conhece Augustus Waters, um sobrevivente de câncer carismático e cheio de humor. Unidos por uma paixão por livros e discussões filosóficas, eles embarcam em uma jornada inesquecível para conhecer o autor recluso de seu livro favorito. Em meio ao romance florescente e aos desafios da doença, Hazel e Gus encontram significado e beleza na vida. Um relato poderoso sobre amor, perda e a busca por um legado que ressoe na eternidade.",
+            "capa": "https://m.media-amazon.com/images/I/51M9IbBqxCL.jpg"
+        },
+        {
+            "id": 7,
+            "titulo": "O Homem de Giz",
+            "autor": "C.J. Tudor",
+            "genero": "Best-sellers",
+            "preco": 33.90,
+            "sinopse": "Eddie e seus amigos usavam desenhos de bonecos de giz para enviar mensagens secretas na infância. Mas tudo muda quando um desses desenhos leva à descoberta de um corpo brutalmente assassinado. Trinta anos depois, Eddie é forçado a confrontar o passado quando recebe um envelope contendo um desenho de giz idêntico. À medida que antigos segredos emergem, ele percebe que o verdadeiro assassino ainda está à solta. Com reviravoltas assustadoras e um suspense psicológico envolvente, este thriller arrepiante explora a fragilidade da memória e o impacto duradouro dos traumas de infância.",
+            "capa": "https://m.media-amazon.com/images/I/91o6FMAy8UL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": 8,
+            "titulo": "O Símbolo Perdido",
+            "autor": "Dan Brown",
+            "genero": "Best-sellers",
+            "preco": 41.90,
+            "sinopse": "Robert Langdon é convocado a Washington D.C. para desvendar o mistério por trás do desaparecimento de seu amigo, o maçom Peter Solomon. Ao seguir pistas escondidas em monumentos históricos, Langdon descobre uma conspiração antiga envolvendo segredos da Maçonaria Americana. Perseguido por um inimigo implacável que busca poder absoluto, ele precisa decifrar símbolos esotéricos antes que o tempo acabe. Com reviravoltas surpreendentes e um ritmo eletrizante, este thriller combina história, ciência e religião em um quebra-cabeça fascinante. Um mistério intelectual que desafia crenças e revela verdades ocultas.",
+            "capa": "https://m.media-amazon.com/images/I/91vgurdy2LL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": 9,
+            "titulo": "Orgulho e Preconceito",
+            "autor": "Jane Austen",
+            "genero": "Clássicos",
+            "preco": 32.90,
+            "sinopse": "No interior da Inglaterra do século XIX, Elizabeth Bennet, uma jovem espirituosa e independente, lida com as pressões sociais para um casamento vantajoso, enquanto desafia as convenções de sua época. Quando conhece o orgulhoso e enigmático Sr. Darcy, ambos se veem presos em mal-entendidos e julgamentos precipitados. A relação tumultuada entre eles evolui em meio a intrigas familiares, diálogos inteligentes e críticas sociais afiadas. Com uma narrativa envolvente, Jane Austen explora os temas do amor, orgulho, preconceito e a busca pela felicidade em um mundo governado por normas rígidas de classe e status.",
+            "capa": "https://m.media-amazon.com/images/I/719esIW3D7L._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": 10,
+            "titulo": "Dom Quixote",
+            "autor": "Miguel de Cervantes",
+            "genero": "Clássicos",
+            "preco": 45.00,
+            "sinopse": "Alonso Quijano, um fidalgo empobrecido da região de La Mancha, enlouquece ao ler inúmeros romances de cavalaria e decide se tornar cavaleiro andante sob o nome de Dom Quixote. Acompanhado por seu fiel escudeiro Sancho Pança, ele embarca em aventuras absurdas, confundindo moinhos de vento com gigantes e estalagens com castelos. Em suas desventuras cômicas e trágicas, Dom Quixote confronta a realidade com sua visão idealizada de heroísmo. Uma sátira brilhante sobre os valores da sociedade de sua época, esta obra-prima também explora a natureza humana, a loucura e o poder da imaginação.",
+            "capa": "https://m.media-amazon.com/images/I/51a+t6XaYZS._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": 11,
+            "titulo": "Crime e Castigo",
+            "autor": "Fiódor Dostoiévski",
+            "genero": "Clássicos",
+            "preco": 39.50,
+            "sinopse": "Raskólnikov, um estudante pobre em São Petersburgo, acredita estar acima da moralidade comum e decide assassinar uma velha agiota para provar sua teoria. No entanto, após o crime, ele é consumido pela culpa e pela paranoia, iniciando uma jornada tortuosa de remorso e redenção. A obra mergulha profundamente na psicologia do protagonista, explorando seus conflitos internos e questionamentos sobre moralidade, justiça e humanidade. Com personagens complexos e um enredo envolvente, Dostoiévski cria um retrato atemporal da luta entre o bem e o mal na alma humana.",
+            "capa": "https://m.media-amazon.com/images/I/916WkSH4cGL.jpg"
+        },
+        {
+            "id": 12,
+            "titulo": "O Grande Gatsby",
+            "autor": "F. Scott Fitzgerald",
+            "genero": "Clássicos",
+            "preco": 31.90,
+            "sinopse": "No verão de 1922, Nick Carraway se muda para Long Island e se vê atraído pelo mundo extravagante e misterioso de seu vizinho, Jay Gatsby. Conhecido por suas festas suntuosas e estilo de vida luxuoso, Gatsby é, na verdade, um homem solitário preso ao passado, obcecado por Daisy Buchanan, seu amor perdido. A busca desesperada por recuperar esse amor revela as ilusões e corrupções do Sonho Americano. Com uma prosa lírica e crítica social mordaz, Fitzgerald explora temas de riqueza, poder, amor e desilusão na Era do Jazz.",
+            "capa": "https://m.media-amazon.com/images/I/81xjr9TiTtL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": 13,
+            "titulo": "1984",
+            "autor": "George Orwell",
+            "genero": "Clássicos",
+            "preco": 38.90,
+            "sinopse": "Em um futuro distópico, o mundo é governado pelo Partido, liderado pelo onipresente Grande Irmão. Winston Smith trabalha para o Ministério da Verdade, alterando registros históricos para se alinhar à propaganda estatal. Desiludido com o regime totalitário, ele desafia o sistema ao iniciar um romance proibido com Julia. Ao buscar liberdade e verdade, Winston descobre o poder devastador da vigilância e da manipulação ideológica. Um retrato sombrio da opressão política, '1984' é uma reflexão atemporal sobre o controle social, a censura e a luta pela liberdade individual.",
+            "capa": "https://m.media-amazon.com/images/I/819js3EQwbL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": 14,
+            "titulo": "Moby Dick",
+            "autor": "Herman Melville",
+            "genero": "Clássicos",
+            "preco": 47.90,
+            "sinopse": "O jovem marinheiro Ishmael embarca no baleeiro Pequod, comandado pelo capitão Ahab, um homem obcecado por vingança contra Moby Dick, uma baleia branca colossal que lhe arrancou a perna. À medida que a perseguição se torna cada vez mais frenética, a tripulação enfrenta perigos mortais no vasto oceano. A narrativa explora temas de obsessão, destino e a luta do homem contra as forças da natureza. Com personagens icônicos e uma prosa rica em simbolismo, 'Moby Dick' é uma das obras mais complexas e poderosas da literatura ocidental.",
+            "capa": "https://m.media-amazon.com/images/I/A1xWjc50fmL.jpg"
+        },
+        {
+            "id": 15,
+            "titulo": "Hamlet",
+            "autor": "William Shakespeare",
+            "genero": "Clássicos",
+            "preco": 29.90,
+            "sinopse": "O príncipe Hamlet retorna à Dinamarca para o funeral de seu pai, apenas para descobrir que sua mãe casou-se rapidamente com seu tio Cláudio, agora rei. Quando o fantasma de seu pai revela que foi assassinado por Cláudio, Hamlet é consumido pelo desejo de vingança. Em meio à loucura, traição e tragédia, ele enfrenta dilemas morais e filosóficos sobre a vida, a morte e a justiça. Com monólogos icônicos e uma narrativa envolvente, 'Hamlet' é uma obra-prima que explora a complexidade da condição humana e a busca por sentido.",
+            "capa": "https://m.media-amazon.com/images/I/81D314P1V9L._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": 16,
+            "titulo": "O Morro dos Ventos Uivantes",
+            "autor": "Emily Brontë",
+            "genero": "Clássicos",
+            "preco": 36.50,
+            "sinopse": "A trágica história de amor entre Heathcliff e Catherine Earnshaw atravessa gerações, marcada por vingança, ciúme e destruição. Heathcliff, um órfão adotado pela família Earnshaw, cresce apaixonado por Catherine, mas é traído quando ela escolhe se casar com Edgar Linton por status social. Consumido pela amargura, Heathcliff planeja sua vingança contra todos que o prejudicaram. Com uma atmosfera sombria e personagens intensamente passionais, esta obra-prima gótica explora os limites do amor e do ódio, revelando as consequências devastadoras das escolhas humanas.",
+            "capa": "https://m.media-amazon.com/images/I/71lqmkoeosL.jpg"
+        },
+        {
+            "id": 17,
+            "titulo": "O Pequeno Príncipe",
+            "autor": "Antoine de Saint-Exupéry",
+            "genero": "Infantil",
+            "preco": 28.90,
+            "sinopse": "Em uma jornada mágica através do universo, um pequeno príncipe encontra diversos planetas e seus excêntricos habitantes. Em sua aventura, ele aprende sobre amizade, amor e a importância de ver o mundo com os olhos de uma criança. Este conto poético e filosófico toca tanto o coração de crianças quanto de adultos, abordando temas profundos como a solidão, a perda e a essência da verdadeira felicidade. 'O Pequeno Príncipe' é uma obra atemporal que nos ensina a valorizar o que é simples e essencial.",
+            "capa": "https://m.media-amazon.com/images/I/71LJ4k-k9hL.jpg"
+        },
+        {
+            "id": 18,
+            "titulo": "Harry Potter e a Pedra Filosofal",
+            "autor": "J.K. Rowling",
+            "genero": "Fantasia",
+            "preco": 42.90,
+            "sinopse": "Harry Potter, um garoto comum, descobre que é um bruxo ao completar 11 anos e recebe uma carta para estudar na Escola de Magia e Bruxaria de Hogwarts. Lá, ele faz novos amigos e descobre o misterioso segredo da Pedra Filosofal, que pode conceder a imortalidade. Através de suas aventuras e desafios, Harry confronta as forças das trevas que ameaçam o mundo mágico. Uma história cativante de magia, amizade e coragem que encantou gerações de leitores ao redor do mundo.",
+            "capa": "https://m.media-amazon.com/images/I/81ibfYk4qmL.jpg"
+        },
+        {
+            "id": 19,
+            "titulo": "O Hobbit",
+            "autor": "J.R.R. Tolkien",
+            "genero": "Infantil",
+            "preco": 35.50,
+            "sinopse": "Bilbo Baggins, um hobbit pacato, se vê inesperadamente envolvido em uma grandiosa aventura. Ele é recrutado por Gandalf, o mago, para ajudar um grupo de anões a recuperar seu reino perdido, enfrentando dragões, trolls e perigos desconhecidos. Ao longo de sua jornada, Bilbo descobre coragem e sabedoria que jamais imaginaria possuir. 'O Hobbit' é um conto envolvente que mistura fantasia, humor e um toque de magia, que conquistou tanto jovens quanto adultos.",
+            "capa": "https://m.media-amazon.com/images/I/91M9xPIf10L.jpg"
+        },
+        {
+            "id": 20,
+            "titulo": "As Crônicas de Nárnia: O Leão, a Feiticeira e o Guarda-Roupa",
+            "autor": "C.S. Lewis",
+            "genero": "Infantil",
+            "preco": 37.00,
+            "sinopse": "Quatro irmãos são transportados para o mágico mundo de Nárnia, onde encontram criaturas fantásticas e um reino dominado por uma Feiticeira Branca. Ao lado do Leão Aslan, o verdadeiro rei de Nárnia, eles devem lutar para libertar o reino da maldição que o condena ao inverno eterno. Uma história cheia de magia, aventura e ensinamentos sobre coragem, sacrifício e a batalha entre o bem e o mal. 'O Leão, a Feiticeira e o Guarda-Roupa' é uma obra que encanta e inspira gerações.",
+            "capa": "https://harpercollins.com.br/cdn/shop/files/9786555114744.jpg?v=1721832930"
+        },
+        {
+            "id": 21,
+            "titulo": "Alice no País das Maravilhas",
+            "autor": "Lewis Carroll",
+            "genero": "Infantil",
+            "preco": 27.90,
+            "sinopse": "Alice, uma jovem curiosa, segue um coelho branco e acaba caindo em um mundo surreal e encantado, onde encontra personagens excêntricos como o Chapeleiro Maluco, o Gato de Cheshire e a Rainha de Copas. Através de uma série de eventos ilógicos e fantásticos, ela explora um mundo onde as regras do tempo, espaço e lógica não se aplicam. Com sua escrita criativa e cheia de fantasia, Lewis Carroll oferece uma história que estimula a imaginação e o pensamento crítico.",
+            "capa": "https://m.media-amazon.com/images/I/91hq-bopcvL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": 22,
+            "titulo": "Matilda",
+            "autor": "Roald Dahl",
+            "genero": "Infantil",
+            "preco": 34.90,
+            "sinopse": "Matilda, uma garotinha extraordinária com poderes mentais, cresce em uma família que não a compreende. Seus pais são indiferentes, e sua professora é cruel, mas Matilda se recusa a ser dominada. Com sua inteligência e coragem, ela enfrenta desafios e descobre um mundo de magia e possibilidades. Roald Dahl, em sua caracteristicamente irreverente escrita, cria uma história envolvente sobre a luta pela justiça, o poder do conhecimento e a superação do mal.",
+            "capa": "https://m.media-amazon.com/images/I/71gD11TbWBL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": 23,
+            "titulo": "Pinoquio",
+            "autor": "Carlo Collodi",
+            "genero": "Infantil",
+            "preco": 29.50,
+            "sinopse": "Pinoquio, um boneco de madeira criado por Geppetto, sonha em se tornar um menino de verdade. Ao longo de sua jornada, ele enfrenta mentiras, enganos e tentações, enquanto aprende lições valiosas sobre honestidade, responsabilidade e coragem. Sua história é um conto moral sobre a importância de fazer as escolhas certas e os efeitos das mentiras e da desobediência. Uma obra clássica da literatura infantil que permanece relevante, ensinando valores essenciais às novas gerações.",
+            "capa": "https://m.media-amazon.com/images/I/81sNhmjTORL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": 24,
+            "titulo": "A Fantástica Fábrica de Chocolate",
+            "autor": "Roald Dahl",
+            "genero": "Infantil",
+            "preco": 33.90,
+            "sinopse": "Charlie Bucket, um garoto pobre, ganha um bilhete dourado para visitar a incrível Fábrica de Chocolate de Willy Wonka. Juntamente com outras crianças, ele explora o mundo mágico de Wonka, cheio de invenções incríveis e surpresas deliciosas. Mas os outros garotos são desobedientes e acabam sendo castigados de maneiras fantásticas, enquanto Charlie aprende valiosas lições sobre humildade e bondade. Uma história deliciosa e encantadora sobre imaginação, moralidade e a importância de ser uma boa pessoa.",
+            "capa": "https://m.media-amazon.com/images/I/81BX9xwJ1jL.jpg"
+        },
+        {
+            "id": 25,
+            "titulo": "O Silêncio dos Inocentes",
+            "autor": "Thomas Harris",
+            "genero": "Suspense",
+            "preco": 49.90,
+            "sinopse": "Clarice Starling, uma jovem agente do FBI, é designada para entrevistar o psicopata Dr. Hannibal Lecter, um brilhante e perigoso psiquiatra que está preso por assassinatos horríveis. Ela busca a ajuda de Lecter para capturar um assassino em série, mas logo se vê enredada em uma complexa teia de manipulação psicológica. Um thriller psicológico que explora os limites da mente humana, a ambiguidade moral e a luta pela sobrevivência. Uma história envolvente e perturbadora que mantém o leitor na ponta da cadeira.",
+            "capa": "https://m.media-amazon.com/images/I/51iUTsAbgbL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": 26,
+            "titulo": "O Iluminado",
+            "autor": "Stephen King",
+            "genero": "Suspense",
+            "preco": 49.90,
+            "sinopse": "Jack Torrance, um escritor e ex-alcoólatra, aceita o trabalho de zelador no isolado Hotel Overlook durante o inverno. Junto com sua esposa Wendy e seu filho Danny, Jack tenta recomeçar sua vida, mas logo a presença sobrenatural do hotel começa a afetar sua mente. Danny, com poderes psíquicos, é o único capaz de perceber o que está acontecendo. 'O Iluminado' é uma história tensa e cheia de suspense, explorando a loucura, o isolamento e os horrores que se escondem nas sombras.",
+            "capa": "https://m.media-amazon.com/images/I/8147kKLLvOL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": 27,
+            "titulo": "Misery",
+            "autor": "Stephen King",
+            "genero": "Suspense",
+            "preco": 44.90,
+            "sinopse": "Paul Sheldon, um escritor de romances de sucesso, sofre um acidente de carro em uma estrada remota e é resgatado por Annie Wilkes, uma fã obcecada por suas obras. Quando ela descobre que Paul planeja matar sua personagem favorita, Misery, Annie fica furiosa e o mantém cativo em sua casa isolada. 'Misery' é um thriller psicológico intenso que explora o medo, a obsessão e o controle. Stephen King leva o leitor a um suspense insuportável, onde cada página vira um novo pesadelo para o protagonista.",
+            "capa": "https://m.media-amazon.com/images/I/91ocgbfq55L.jpg"
+        },
+        {
+            "id": 28,
+            "titulo": "O Silêncio da Chuva",
+            "autor": "Luiz Alfredo Garcia-Roza",
+            "genero": "Suspense",
+            "preco": 42.90,
+            "sinopse": "Em 'O Silêncio da Chuva', o detetive Espinosa é chamado para investigar o assassinato de uma mulher no Rio de Janeiro. À medida que mergulha no caso, ele descobre que as pistas são misteriosas e desafiadoras, e o clima de tensão na cidade só aumenta. A narrativa tece uma história envolvente de mistério, onde os personagens lidam com suas próprias sombras e o enigma do crime, criando uma atmosfera densa e imprevisível.",
+            "capa": "https://m.media-amazon.com/images/I/91qPn91p6qL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": 29,
+            "titulo": "A Verdade Sobre o Caso Harry Quebert",
+            "autor": "Joël Dicker",
+            "genero": "Suspense",
+            "preco": 49.90,
+            "sinopse": "O jovem escritor Marcus Goldman viaja para a casa de seu mentor Harry Quebert, acusado de assassinar uma jovem garota 30 anos atrás. À medida que investiga o caso, ele descobre segredos ainda mais sombrios sobre a vida de Quebert e a trama que envolve amor, vingança e mistério. 'A Verdade Sobre o Caso Harry Quebert' é um suspense literário repleto de reviravoltas e com uma narrativa envolvente que prende o leitor até a última página.",
+            "capa": "https://m.media-amazon.com/images/I/81EzMxfxsSL.jpg"
+        },
+        {
+            "id": 30,
+            "titulo": "Garota Exemplar",
+            "autor": "Gillian Flynn",
+            "genero": "Suspense",
+            "preco": 42.90,
+            "sinopse": "Nick Dunne se vê no centro de uma investigação quando sua esposa, Amy, desaparece misteriosamente no dia de seu quinto aniversário de casamento. A investigação revela segredos de seu casamento, com pistas que levam a uma surpreendente reviravolta. 'Garota Exemplar' é um thriller psicológico que questiona a confiança, a manipulação e o que realmente acontece por trás das portas fechadas dos relacionamentos.",
+            "capa": "https://m.media-amazon.com/images/I/510k5EkYuWL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": 31,
+            "titulo": "A Hospedeira",
+            "autor": "Stephenie Meyer",
+            "genero": "Suspense",
+            "preco": 39.90,
+            "sinopse": "Após uma invasão alienígena que toma o controle dos corpos humanos, Melanie Stryder luta para manter sua identidade e seu amor pela sua família, mesmo com uma alienígena, chamada Peregrina, ocupando seu corpo. O romance mistura ficção científica com mistério e suspense, explorando o que significa ser humano e o que se torna a sobrevivência em um mundo pós-apocalíptico.",
+            "capa": "https://m.media-amazon.com/images/I/71BqEbZ1wvL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": 32,
+            "titulo": "A Mulher na Janela",
+            "autor": "A. J. Finn",
+            "genero": "Suspense",
+            "preco": 45.90,
+            "sinopse": "Anna Fox é uma mulher reclusa, que passa os dias observando os vizinhos pela janela de sua casa em Nova York. Quando ela testemunha algo aparentemente horrível na casa do vizinho, ela entra em um turbilhão de dúvidas sobre sua própria sanidade. 'A Mulher na Janela' é um thriller psicológico que explora os limites da percepção, da paranoia e da verdade.",
+            "capa": "https://m.media-amazon.com/images/I/61aWdAo645L._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": 33,
+            "titulo": "Fahrenheit 451",
+            "autor": "Ray Bradbury",
+            "genero": "Distopia",
+            "preco": 42.90,
+            "sinopse": "Em um futuro onde os livros são proibidos e os bombeiros queimam os poucos que ainda existem, Guy Montag é um bombeiro que começa a questionar a sociedade em que vive. Através de encontros com uma jovem rebelde e a busca por conhecimento, ele começa a se rebelar contra o sistema opressor. 'Fahrenheit 451' é uma poderosa crítica à censura e ao controle da informação, explorando como a sociedade pode ser controlada quando o pensamento independente é erradicado.",
+            "capa": "https://m.media-amazon.com/images/I/51tAD6LyZ-L._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": 34,
+            "titulo": "Admirável Mundo Novo",
+            "autor": "Aldous Huxley",
+            "genero": "Distopia",
+            "preco": 44.90,
+            "sinopse": "Em uma sociedade futurista, a humanidade vive sob um regime de controle absoluto. A felicidade é mantida através de consumo, drogas e a erradicação de qualquer tipo de conflito. Bernard Marx, um homem insatisfeito com sua vida, começa a questionar a perfeição da sociedade e se vê confrontado com um mundo onde a liberdade é sacrificada pela estabilidade. 'Admirável Mundo Novo' é uma reflexão sobre os perigos do controle social e a busca pela perfeição à custa da liberdade.",
+            "capa": "https://m.media-amazon.com/images/I/71Q6AA8w42L._UF894,1000_QL80_.jpg"
+        },
+        {
+            "id": 35,
+            "titulo": "Ready Player One",
+            "autor": "Ernest Cline",
+            "genero": "Distopia",
+            "preco": 42.90,
+            "sinopse": "Em um futuro decadente e sombrio, a realidade virtual se torna o refúgio de bilhões de pessoas em todo o mundo. Wade Watts, um jovem órfão, embarca em uma busca para encontrar o tesouro escondido dentro do jogo OASIS, criado por seu falecido criador. A primeira pessoa a encontrar o tesouro será recompensada com sua fortuna e controle total do jogo. 'Ready Player One' é uma distopia que combina tecnologia, nostalgia e ação, refletindo sobre o impacto das realidades virtuais na sociedade.",
+            "capa": "https://upload.wikimedia.org/wikipedia/pt/d/d4/Ready_Player_One_%28filme%29.png"
+        },
+        {
+            "id": 36,
+            "titulo": "O Conto da Aia",
+            "autor": "Margaret Atwood",
+            "genero": "Distopia",
+            "preco": 49.90,
+            "sinopse": "Em um futuro distópico, as mulheres são subjugadas e forçadas a servir como reprodutoras em uma sociedade religiosa e totalitária. Offred, a protagonista, é uma 'Aia', cujo único propósito é engravidar e dar filhos aos líderes da nação. Com o tempo, ela começa a resistir silenciosamente ao regime opressor e a descobrir o poder da subversão. 'O Conto da Aia' é um retrato sombrio da opressão feminina e uma crítica poderosa às consequências de regimes totalitários.",
+            "capa": "https://m.media-amazon.com/images/I/91AHNAr638L.jpg"
+        },
+        {
+            "id": 37,
+            "titulo": "A Menina que Roubava Livros",
+            "autor": "Markus Zusak",
+            "genero": "Distopia",
+            "preco": 39.90,
+            "sinopse": "Durante a Segunda Guerra Mundial, Liesel Meminger é uma jovem que encontra consolo nos livros em meio à devastação e à guerra. Ao roubar livros e compartilhá-los com os outros, ela cria um vínculo com aqueles ao seu redor, mas também precisa lidar com os horrores do regime nazista e a iminente ameaça de morte. Narrado pela Morte, a história explora o poder das palavras e a resistência humana, mostrando como a literatura pode ser uma força de sobrevivência em tempos de desesperança.",
+            "capa": "https://m.media-amazon.com/images/I/61L+4OBhm-L._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": 38,
+            "titulo": "O Ceifador",
+            "autor": "Neal Shusterman",
+            "genero": "Distopia",
+            "preco": 45.90,
+            "sinopse": "Em um futuro onde a morte foi erradicada pela ciência e a humanidade vive eternamente, a única forma de manter o equilíbrio populacional é através dos Ceifadores, uma organização encarregada de eliminar vidas. Citra e Rowan são escolhidos para treinar como Ceifadores, mas logo se veem em um mundo de dilemas éticos, poder e corrupção. 'O Ceifador' é uma distopia que questiona o valor da vida, da morte e das escolhas que definem quem deve viver e quem deve morrer.",
+            "capa": "https://m.media-amazon.com/images/I/91LldWCllgS._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": 39,
+            "titulo": "A Estrada",
+            "autor": "Cormac McCarthy",
+            "genero": "Distopia",
+            "preco": 46.90,
+            "sinopse": "Após um apocalipse que destruiu a civilização, um pai e seu filho lutam para sobreviver em um mundo devastado, onde a esperança é uma commodity rara. Viajando por uma estrada desolada, eles enfrentam a ameaça constante de saqueadores e os rigores de um mundo sem recursos. 'A Estrada' é uma obra visceral e poética, que aborda temas de sobrevivência, amor e a perda da humanidade em um mundo que perdeu todo o sentido.",
+            "capa": "https://m.media-amazon.com/images/I/81sv0MNR-LL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": 40,
+            "titulo": "Duna",
+            "autor": "Frank Herbert",
+            "genero": "Ficção Científica",
+            "preco": 59.90,
+            "sinopse": "Em um futuro distante, o planeta desértico Arrakis, também conhecido como Duna, é a única fonte do valioso 'melange', uma especiaria que concede habilidades extraordinárias. Paul Atreides, herdeiro de uma poderosa casa, é forçado a enfrentar intrigas políticas, traições e batalhas mortais para sobreviver e entender seu destino. 'Duna' é uma épica narrativa sobre poder, religião, ecologia e o destino da humanidade.",
+            "capa": "https://m.media-amazon.com/images/I/81zN7udGRUL.jpg"
+        },
+        {
+            "id": 41,
+            "titulo": "Neuromancer",
+            "autor": "William Gibson",
+            "genero": "Ficção Científica",
+            "preco": 49.90,
+            "sinopse": "Case, um ex-hacker que foi mutilado para não acessar mais o ciberespaço, é recrutado por um misterioso empregador para realizar um último trabalho. Em um mundo onde as linhas entre o real e o virtual se desfazem, 'Neuromancer' explora os limites da tecnologia e da consciência humana, tornando-se uma obra fundadora do subgênero cyberpunk e influenciando toda a cultura digital que se segue.",
+            "capa": "https://m.media-amazon.com/images/I/91Bx5ilP+EL.jpg"
+        },
+        {
+            "id": 42,
+            "titulo": "O Guia do Mochileiro das Galáxias",
+            "autor": "Douglas Adams",
+            "genero": "Ficção Científica",
+            "preco": 29.90,
+            "sinopse": "Após a destruição da Terra para dar lugar a uma nova via expressa intergaláctica, Arthur Dent se vê no espaço com seu amigo Ford Prefect. Juntos, eles embarcam em uma jornada insana e hilária pelo universo, repleta de absurdos e situações que desafiam a lógica. 'O Guia do Mochileiro das Galáxias' é uma sátira inteligente sobre a vida, o universo e tudo mais, repleta de humor peculiar e reflexões filosóficas.",
+            "capa": "https://m.media-amazon.com/images/I/81zQDb6GMVL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": 43,
+            "titulo": "A Mão Esquerda da Escuridão",
+            "autor": "Ursula K. Le Guin",
+            "genero": "Ficção Científica",
+            "preco": 44.90,
+            "sinopse": "Genly Ai, um enviado de um planeta distante, chega ao planeta Gethen para convencer seus habitantes, que são ambíguos em relação ao gênero, a se juntar a uma coalizão interplanetária. Em 'A Mão Esquerda da Escuridão', Ursula K. Le Guin explora temas de identidade de gênero, política e a complexidade das relações humanas em uma sociedade onde a norma de gênero é fluida.",
+            "capa": "https://m.media-amazon.com/images/I/71-g0eKZDtS._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": 44,
+            "titulo": "Eu, Robô",
+            "autor": "Isaac Asimov",
+            "genero": "Ficção Científica",
+            "preco": 39.90,
+            "sinopse": "'Eu, Robô' é uma coletânea de contos escritos por Isaac Asimov, que apresenta a famosa Lei da Robótica, que governaria a interação entre humanos e robôs no futuro. Cada história explora diferentes dilemas e complexidades envolvendo máquinas inteligentes e sua convivência com seres humanos. Asimov não apenas introduziu uma nova era de pensamento sobre inteligência artificial, mas também questionou os limites éticos e morais da tecnologia, o que ainda ressoa em debates contemporâneos sobre a IA. Com uma narrativa envolvente e profunda, 'Eu, Robô' é essencial para qualquer fã de ficção científica e robótica.",
+            "capa": "https://m.media-amazon.com/images/I/61ooZHl+CTL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": 45,
+            "titulo": "A Guerra dos Mundos",
+            "autor": "H.G. Wells",
+            "genero": "Ficção Científica",
+            "preco": 34.90,
+            "sinopse": "Quando os marcianos começam a invadir a Terra, a humanidade se vê à beira da extinção. 'A Guerra dos Mundos' é uma obra clássica de ficção científica que mistura ação e filosofia, enquanto o protagonista luta para sobreviver à destruição causada pelos invasores extraterrestres. A narrativa de H.G. Wells questiona o papel da humanidade no universo e as consequências de uma civilização em confronto com forças superiores.",
+            "capa": "https://m.media-amazon.com/images/I/91r3rBPFgcS._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": 46,
+            "titulo": "Matéria Escura",
+            "autor": "Blake Crouch",
+            "genero": "Ficção Científica",
+            "preco": 44.90,
+            "sinopse": "'Matéria Escura' é um thriller psicológico de ficção científica que explora as possibilidades da viagem no tempo e a realidade alternativa. O protagonista, Jason Dessen, um físico universitário, é sequestrado e transportado para um mundo paralelo onde a vida que ele conhece nunca aconteceu. Ao tentar entender as implicações desse novo universo, ele se vê preso em uma série de eventos que desafiam a percepção de identidade, escolhas e destino. Com um ritmo eletricamente acelerado, 'Matéria Escura' explora questões sobre o que somos e o que poderíamos ser, se nossas vidas tomassem direções diferentes.",
+            "capa": "https://m.media-amazon.com/images/I/61xHkoffp3L._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": 47,
+            "titulo": "O Fim da Infância",
+            "autor": "Arthur C. Clarke",
+            "genero": "Ficção Científica",
+            "preco": 39.90,
+            "sinopse": "Quando uma misteriosa raça alienígena, os Superiores, chega à Terra, a humanidade se vê à beira de uma grande mudança. Eles guiam a raça humana em direção a um futuro brilhante, mas também enfrentam o dilema de perder sua humanidade. 'O Fim da Infância' questiona o que significa evolução e transcendência, enquanto explora as consequências do contato com civilizações superiores.",
+            "capa": "https://m.media-amazon.com/images/I/71aSbmu4MzL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": 48,
+            "titulo": "Recursão",
+            "autor": "Blake Crouch",
+            "genero": "Ficção Científica",
+            "preco": 49.90,
+            "sinopse": "'Recursão' é um thriller psicológico de ficção científica que explora a natureza da memória humana e como ela pode ser manipulada. Quando a detetive Barry Sutton investiga um surto de uma doença mental chamada 'Síndrome de Falsa Memória', ela descobre que algumas pessoas estão revivendo momentos do passado de maneira distorcida, criando uma realidade alternativa. À medida que ela se aprofunda no caso, ela encontra um cientista, chamada Helena Smith, que desenvolveu uma tecnologia capaz de alterar e recriar memórias. Juntos, eles enfrentam questões profundas sobre identidade, o peso do passado e as consequências de manipular a própria realidade. Com um enredo fascinante e complexa, 'Recursão' mergulha nos limites da mente humana e da percepção.",
+            "capa": "https://m.media-amazon.com/images/I/61IcrwpeLUL.jpg"
+        },
+        {
+            "id": 49,
+            "titulo": "Percy Jackson e o Ladrão de Raios",
+            "autor": "Rick Riordan",
+            "genero": "Fantasia",
+            "preco": 39.90,
+            "sinopse": "'Percy Jackson e o Ladrão de Raios' é o primeiro livro da série que segue a jornada de Percy, um adolescente que descobre ser filho de Poseidon, o deus grego dos mares. Quando ele é acusado de roubar o raio mestre de Zeus, Percy se vê em uma missão para recuperar o objeto antes que uma guerra entre os deuses seja desencadeada. A história é repleta de aventuras, mitologia grega, humor e personagens cativantes. Percy, acompanhado de seus amigos Annabeth e Grover, enfrenta criaturas mitológicas e desafios épicos, enquanto aprende mais sobre seu legado e o poder da amizade.",
+            "capa": "https://m.media-amazon.com/images/I/A1UjcPz4gZL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": 50,
+            "titulo": "Percy Jackson e o Mar de Monstros",
+            "autor": "Rick Riordan",
+            "genero": "Fantasia",
+            "preco": 42.90,
+            "sinopse": "'Percy Jackson e o Mar de Monstros' é o segundo livro da saga em que Percy, junto de seus amigos, parte em uma nova missão para resgatar o Velocino de Ouro, que pode salvar o acampamento Meio-Sangue, um refúgio para semideuses, de ser destruído. Eles enfrentam perigos mortais em uma jornada que os leva ao Mar de Monstros, onde criaturas e armadilhas místicas colocam sua coragem à prova. Além de explorar mais profundamente a mitologia grega, o livro aborda temas como lealdade, amizade e os desafios de crescer. A trama é envolvente, com reviravoltas e muita ação, mantendo os leitores grudados até o final.",
+            "capa": "https://m.media-amazon.com/images/I/A1rVWjvjcdL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": 51,
+            "titulo": "O Senhor dos Anéis: A Sociedade do Anel",
+            "autor": "J.R.R. Tolkien",
+            "genero": "Fantasia",
+            "preco": 59.90,
+            "sinopse": "'A Sociedade do Anel' é o primeiro livro da trilogia épica de J.R.R. Tolkien, que acompanha a jornada de Frodo Bolseiro, um hobbit que herda o Um Anel, um artefato mágico com poder destrutivo. Junto de seus amigos e aliados, Frodo forma a Sociedade do Anel, com o objetivo de destruir o anel e impedir que ele caia nas mãos de Sauron, o senhor das trevas. A história se passa na vasta Terra-média, um mundo rico em mitologia, culturas e criaturas fantásticas. Cheio de aventuras, batalhas e dilemas morais, o livro explora temas como amizade, sacrifício e coragem em face do mal iminente.",
+            "capa": "https://m.media-amazon.com/images/I/81SWBRKfExL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": 52,
+            "titulo": "O Senhor dos Anéis: As Duas Torres",
+            "autor": "J.R.R. Tolkien",
+            "genero": "Fantasia",
+            "preco": 62.90,
+            "sinopse": "'As Duas Torres' é o segundo livro da trilogia O Senhor dos Anéis, onde Frodo e Sam continuam sua perigosa jornada para destruir o Um Anel, enquanto são perseguidos por forças do mal. Enquanto isso, Aragorn, Legolas e Gimli buscam resgatar seus amigos capturados e enfrentam os temíveis exércitos de Saruman. A história se aprofunda nas alianças e batalhas em uma Terra-média marcada por conflitos entre os povos livres e os seguidores de Sauron. As Duas Torres explora a luta entre o bem e o mal, a esperança em tempos de escuridão e a resiliência diante das adversidades.",
+            "capa": "https://m.media-amazon.com/images/I/81lQ5N0QwJL.jpg"
+        },
+        {
+            "id": 53,
+            "titulo": "A Crônica de Gelo e Fogo: Guerra dos Tronos",
+            "autor": "George R.R. Martin",
+            "genero": "Fantasia",
+            "preco": 69.90,
+            "sinopse": "'Guerra dos Tronos' é o primeiro livro da série 'A Crônica de Gelo e Fogo', que se passa no continente fictício de Westeros, onde várias casas nobres lutam pelo Trono de Ferro e o domínio do reino. A história mistura intriga política, batalhas épicas e mistérios sobrenaturais, com personagens complexos e imprevisíveis. A trama gira em torno da luta pelo poder, da lealdade e da traição, com uma série de eventos que desafiam a moralidade e as alianças tradicionais. 'Guerra dos Tronos' é um dos livros mais emblemáticos de fantasia contemporânea.",
+            "capa": "https://m.media-amazon.com/images/I/91+1SUO3vUL.jpg"
+        },
+        {
+            "id": 54,
+            "titulo": "Eragon",
+            "autor": "Christopher Paolini",
+            "genero": "Fantasia",
+            "preco": 44.90,
+            "sinopse": "'Eragon' segue a história de um jovem camponês chamado Eragon, que encontra uma pedra misteriosa que se revela ser um ovo de dragão. Após a eclosão do ovo, Eragon se torna um dos últimos Cavaleiros de Dragão, responsáveis por combater o mal em seu mundo. Junto com seu dragão Saphira, Eragon se vê envolvido em uma guerra épica contra o império maligno que controla a terra. O livro é uma história de coragem, sacrifício e o poder da amizade, imersa em um mundo de magia e mitologia.",
+            "capa": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Christopher_Paolini%2C_Eragon_1.jpg/640px-Christopher_Paolini%2C_Eragon_1.jpg"
+        },
+        {
+            "id": 55,
+            "titulo": "A Terra das Sombras",
+            "autor": "Meg Cabot",
+            "genero": "Fantasia",
+            "preco": 59.90,
+            "sinopse": "'A Terra das Sombras' segue a história de Diana Bishop, uma historiadora e bruxa que relutantemente se vê envolvida com magia ao descobrir um manuscrito antigo, perdido por séculos. Junto com o vampiro Matthew Clairmont, ela mergulha em um mundo cheio de mistérios, criaturas sobrenaturais e intrigas que remontam ao passado. O livro mistura romance, história, ciência e magia, explorando o equilíbrio entre o mundo humano e o sobrenatural, enquanto Diana e Matthew enfrentam ameaças de todas as direções.",
+            "capa": "https://m.media-amazon.com/images/I/71D1nVdm1HL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": 56,
+            "titulo": "O Nome do Vento",
+            "autor": "Patrick Rothfuss",
+            "genero": "Fantasia",
+            "preco": 69.90,
+            "sinopse": "'O Nome do Vento' é o primeiro livro da série 'A Crônica do Matador do Rei', que conta a história de Kvothe, um homem lendário que viveu uma vida cheia de aventuras, magia e tragédia. O livro narra a jornada de Kvothe desde sua infância em uma troupe de artistas itinerantes até sua ascensão como um mago talentoso e herói incompreendido. Em uma narrativa rica em detalhes e em um mundo imersivo, 'O Nome do Vento' explora temas como a busca por conhecimento, o poder da música e a luta para encontrar a própria identidade.",
+            "capa": "https://m.media-amazon.com/images/I/81CGmkRG9GL.jpg"
+        },
+        {
+            "id": 57,
+            "titulo": "Harry Potter e a Câmara Secreta",
+            "autor": "J.K. Rowling",
+            "genero": "Fantasia",
+            "preco": 54.90,
+            "sinopse": "'Harry Potter e a Câmara Secreta' é o segundo livro da série, onde Harry retorna a Hogwarts para seu segundo ano e descobre que algo misterioso está acontecendo na escola. Alunos são petrificados, e há rumores sobre a Câmara Secreta, uma antiga sala oculta onde um monstro perigoso está solto. Com a ajuda de seus amigos Ron e Hermione, Harry investiga os mistérios e enfrenta novos desafios, tudo enquanto lida com os perigos de um mundo mágico mais complexo. O livro continua a explorar a amizade, coragem e o crescimento de Harry em um mundo de magia e mistério.",
+            "capa": "https://m.media-amazon.com/images/I/81jbivNEVML._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": 58,
+            "titulo": "Harry Potter e o Prisioneiro de Azkaban",
+            "autor": "J.K. Rowling",
+            "genero": "Fantasia",
+            "preco": 59.90,
+            "sinopse": "'Harry Potter e o Prisioneiro de Azkaban' é o terceiro livro da série e marca uma nova fase para Harry e seus amigos. Harry descobre que Sirius Black, um prisioneiro de Azkaban, fugiu e está em busca dele. Durante o ano letivo, Harry e seus amigos enfrentam muitos desafios e descobrem segredos ocultos do passado de Harry. A trama explora temas como lealdade, amizade e identidade, com a introdução de personagens e criaturas novas, além de uma reviravolta surpreendente que muda o curso da história.",
+            "capa": "https://m.media-amazon.com/images/I/81u+ljPVifL.jpg"
+        },
+        {
+            "id": 59,
+            "titulo": "O Menino Maluquinho",
+            "autor": "Ziraldo",
+            "genero": "Infantil",
+            "preco": 39.90,
+            "sinopse": "'O Menino Maluquinho' conta a história de um menino que, com sua criatividade e imaginação, transforma a vida cotidiana em uma grande aventura. Com um estilo irreverente e cheio de energia, o Menino Maluquinho se mete em diversas situações engraçadas e emocionantes, conquistando a amizade de todos ao seu redor. A obra é uma das mais queridas da literatura infantil brasileira, abordando temas como amizade, convivência familiar e a importância de ser autêntico.",
+            "capa": "https://m.media-amazon.com/images/I/911o1h5gIzL.jpg"
+        },
+        {
+            "id": 60,
+            "titulo": "A Bolsa Amarela",
+            "autor": "Lygia Bojunga",
+            "genero": "Infantil",
+            "preco": 34.90,
+            "sinopse": "'A Bolsa Amarela' é um livro que aborda a história de Raquel, uma menina que está em busca de si mesma e das suas próprias escolhas. Raquel deseja ser livre e explorar o mundo, mas também precisa lidar com suas inseguranças e as expectativas de sua família. A história é uma reflexão sobre a infância, os sonhos e as dificuldades do crescimento. A autora lida com temas profundos de forma acessível, criando um ambiente envolvente para jovens leitores.",
+            "capa": "https://m.media-amazon.com/images/I/81K5jQelFgL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": 61,
+            "titulo": "Eldest",
+            "autor": "Christopher Paolini",
+            "genero": "Fantasia",
+            "preco": 69.90,
+            "sinopse": "'Eldest' é o segundo livro da série 'O Ciclo da Herança', que segue a jornada de Eragon e seu dragão Saphira enquanto enfrentam os desafios de se tornar Cavaleiros de Dragão. Eragon deve lidar com o crescente poder do Império e buscar maneiras de derrotar o tirano que ameaça seu mundo. Com mais batalhas épicas e o aprofundamento da magia e das relações entre os personagens, o livro leva os leitores a um mundo ainda mais complexo e fascinante de dragões e magia.",
+            "capa": "https://m.media-amazon.com/images/I/81NVdIqPghL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": 62,
+            "titulo": "A Rainha do Castelo de Ar",
+            "autor": "Evelyn Skye",
+            "genero": "Fantasia",
+            "preco": 49.90,
+            "sinopse": "'A Rainha do Castelo de Ar' é o primeiro livro da série 'A Feiticeira do Castelo de Ar'. A história segue a jornada de uma jovem chamada Mari, uma menina que descobre ter habilidades mágicas em um mundo onde a magia é proibida. Ela é forçada a usar seus poderes para lutar por sua vida e pela de seus entes queridos. Com uma trama cheia de ação, magia e dilemas morais, o livro mistura elementos de fantasia com questões sobre identidade e poder.",
+            "capa": "https://m.media-amazon.com/images/I/914ePnZrCGL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": 63,
+            "titulo": "O Quarto Fechado",
+            "autor": "Lya Luft",
+            "genero": "Suspense",
+            "preco": 59.90,
+            "sinopse": "'O Quarto Fechado' segue a história de uma mulher chamada Amy que se vê presa em um relacionamento conturbado. Ela começa a investigar um mistério que a envolve, levando a uma descoberta chocante sobre seu marido e o mundo em que vive. Com reviravoltas inesperadas e personagens complexos, o livro oferece uma narrativa de suspense psicológico, onde o leitor é levado a questionar a verdade e as motivações de todos os envolvidos.",
+            "capa": "https://m.media-amazon.com/images/I/91Lhc4+XWeL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": 64,
+            "titulo": "Antes de Dormir",
+            "autor": "S.J. Watson",
+            "genero": "Suspense",
+            "preco": 54.90,
+            "sinopse": "'Antes de Dormir' conta a história de Christine, uma mulher que perde a memória todos os dias quando acorda. Ela começa a descobrir segredos sobre sua própria vida e sua condição, mas os segredos que ela desvenda se tornam cada vez mais perigosos. O livro é uma mistura de mistério psicológico e suspense, onde a protagonista tenta desvendar a verdade enquanto lida com suas próprias limitações e o mistério de sua perda de memória.",
+            "capa": "https://m.media-amazon.com/images/I/81YFy9wbiRL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": 65,
+            "titulo": "O Sol é Para Todos",
+            "autor": "Harper Lee",
+            "genero": "Best-sellers",
+            "preco": 39.90,
+            "sinopse": "'O Sol é Para Todos' é um clássico da literatura americana, que aborda questões profundas como racismo, injustiça e empatia. A história é narrada pela jovem Scout Finch, que vive no sul dos Estados Unidos durante a Grande Depressão. A trama segue seu pai, o advogado Atticus Finch, que defende um homem negro injustamente acusado de estuprar uma mulher branca. A obra é uma reflexão sobre moralidade, coragem e os preconceitos da sociedade.",
+            "capa": "https://m.media-amazon.com/images/I/91WKPd60P4L._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+            "id": 66,
+            "titulo": "O Homem Mais Rico da Babilônia",
+            "autor": "George S. Clason",
+            "genero": "Best-sellers",
+            "preco": 29.90,
+            "sinopse": "'O Homem Mais Rico da Babilônia' é um clássico de finanças pessoais, escrito de forma simples e acessível, transmitindo lições de riqueza baseadas na antiga Babilônia. Através de histórias e fábulas, o livro compartilha ensinamentos sobre economia, investimentos e hábitos financeiros saudáveis. Com o objetivo de ajudar os leitores a entender como acumular riqueza e administrar seu dinheiro de forma eficaz, ele continua sendo uma obra fundamental para quem busca educação financeira.",
+            "capa": "https://m.media-amazon.com/images/I/81ehX6Quw2L.jpg"
+        },
+        {
+            "id": 67,
+            "titulo": "O Poder do Hábito",
+            "autor": "Charles Duhigg",
+            "genero": "Best-sellers",
+            "preco": 39.90,
+            "sinopse": "'O Poder do Hábito' explora a ciência por trás dos hábitos e como eles influenciam nossas vidas. O autor, Charles Duhigg, apresenta pesquisas e histórias que mostram como os hábitos são formados, como podem ser mudados e como impactam nossa produtividade, saúde e felicidade. Com insights práticos e exemplos reais, o livro oferece ferramentas para que os leitores possam identificar e transformar seus próprios hábitos, criando mudanças positivas em suas vidas.",
+            "capa": "https://m.media-amazon.com/images/I/815iPX0SgkL._AC_UF1000,1000_QL80_.jpg"
+        }
+    ]
+}
