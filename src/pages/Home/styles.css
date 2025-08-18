@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.home {
+  min-height: 100dvh;
+  background: #fff;
+  padding: 24px 16px 56px;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  color: #0f172a;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 340px;
+  margin: 8px 0 24px;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right,
+      rgba(59, 35, 120, .7) 5%,
+      rgba(59, 35, 120, .4) 40%,
+      rgba(90, 35, 120, 0) 80%);
+  z-index: 1;
+}
+
+.banner__text {
+  position: absolute;
+  top: 20%;
+  left: 24px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 40%;
+}
+
+.banner__text strong {
+  color: #fbbf24;
+  font-size: clamp(20px, 2.6vw, 32px);
+  font-weight: 800;
+}
+
+.banner__text span {
+  color: #fff;
+  font-size: clamp(14px, 1.8vw, 22px);
+}
+
+.feedback {
+  margin: 0 0 16px;
+  color: #111;
+}
+
+.feedback.erro {
+  color: #ff4d4d;
+}
+
+.section__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.section__head h2 {
+  font-size: 22px;
+  font-weight: 800;
+  color: #1e293b;
+}
+
+.see-more {
+  font-size: 14px;
+  font-weight: 700;
+  color: #ff6a00;
+  text-decoration: none;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px 18px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background-color: #F4F4FF;
+  border: 1px solid #e0e7ff;
+  border-radius: 12px;
+  padding: 16px;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(0,0,0,.10);
+  border-color: #c7d2fe;
+}
+
+.card__cover {
+  flex: 0 0 auto;
+}
+
+.card__cover img {
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+
+.card__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  flex: 1;
+  gap: 30px;
+}
+
+
+.card__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: #0f172a;
+}
+
+.card__author {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+
+.card__price {
+  font-size: 18px;
+  font-weight: 800;
+  color: #6C63FF;
+  margin-top: auto;  
+}
+
+
+body {
+  background-color: #fff;
+}
