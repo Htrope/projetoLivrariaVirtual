@@ -6,7 +6,6 @@ import Home from "./pages/Home";
 import Genero from "./pages/Genero";
 import Detalhes from "./pages/Detalhes";
 
-
 const router = createBrowserRouter([
   {
     path: "/",
@@ -16,22 +15,18 @@ const router = createBrowserRouter([
         index: true, 
         element: <Login/>
       },
-   
       {
         path: "/home", 
         element: <Home/>
       },
-    
       {
         path: "/genero", 
         element: <Genero/>
       },
-    
       {
-        path: "/detalhes", 
+        path: "/detalhes/:id",  // ⬅ rota dinâmica
         element: <Detalhes/>
       },
-    
     ],
   },
 ]);

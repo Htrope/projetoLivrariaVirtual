@@ -1,0 +1,168 @@
+/* ====== Layout base do main ====== */
+.detalhes {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+}
+
+.detalhes__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 18px;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 10px;
+}
+
+.voltar {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #0f172a;
+  opacity: .9;
+}
+
+.voltar:hover { opacity: 1; }
+
+/* ====== Painel principal ====== */
+/* ====== Painel principal ====== */
+.painel {
+  display: grid;
+  grid-template-columns: 420px minmax(0, 1fr); /* 1) primeira coluna fixa */
+  gap: 48px;                                    /* 2) separação maior entre os cards */
+  align-items: start;
+}
+
+.painel__capa {
+  background:#F4F4FF;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.06);
+  width: 420px;            
+  height: 570px;           
+}
+
+.painel__capa img {
+  display: block;
+  width: 100%;
+  height: 100%;            /* 3) preenche o painel por completo */
+  border-radius: 8px;
+  object-fit: cover;       /* corta a imagem com proporção correta */
+}
+
+.painel__conteudo {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.06);
+}
+
+
+/* Título/autor */
+.titulo {
+  font-size: 28px;
+  line-height: 1.2;
+  color: #0f172a;
+  margin: 4px 0 6px;
+  font-weight: 700;
+}
+
+.autor {
+  font-size: 18px;
+  color: #4b5563;
+  margin-bottom: 18px;
+}
+
+/* Sinopse */
+.bloco { margin-top: 8px; }
+.sub {
+  font-size: 16px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 6px;
+}
+.texto {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #374151;
+}
+
+/* Ações (preço + botão) */
+.acao {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 22px;
+  flex-wrap: wrap;
+}
+
+.preco {
+ 
+  color: #0f172a;
+}
+
+.btn {
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 10px 16px;
+  font-weight: 600;
+}
+
+.btn.primario {
+  background: #EF6B4A;
+  color: #fff;
+  box-shadow: 0 10px 24px rgba(108, 99, 255, .25);
+}
+.btn.primario:hover { filter: brightness(1.05); }
+
+.btn.simples {
+  background: #fff;
+  border-color: #e5e7eb;
+  color: #0f172a;
+}
+
+/* ====== Skeleton (carregando) ====== */
+.skeleton {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 32px;
+}
+
+.sk-img, .sk-line {
+  border-radius: 12px;
+  background: linear-gradient(90deg,#eee 25%,#f5f5f5 37%,#eee 63%);
+  background-size: 400% 100%;
+  animation: shimmer 1.2s infinite;
+}
+.sk-img { height: 420px; }
+.sk-text { display: grid; gap: 12px; }
+.sk-line { height: 16px; }
+.sk-line.md { width: 60%; height: 18px; }
+.sk-line.lg { width: 40%; height: 26px; }
+
+@keyframes shimmer {
+  0% { background-position: 100% 0; }
+  100% { background-position: 0 0; }
+}
+
+/* ====== Erro ====== */
+.erro {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 24px;
+  color: #b91c1c;
+}
+
+/* ====== Responsivo ====== */
+@media (max-width: 900px) {
+  .painel, .skeleton {
+    grid-template-columns: 1fr;
+  }
+  .painel__capa { max-width: 360px; }
+}
