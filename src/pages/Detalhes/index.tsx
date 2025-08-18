@@ -60,7 +60,7 @@ export default function VerMais() {
     return () => ctrl.abort();
   }, [id]);
 
-  // Helpers com fallbacks
+  
   const titulo = useMemo(
     () => (livro?.title ?? livro?.titulo ?? "Sem título"),
     [livro]
@@ -130,7 +130,7 @@ export default function VerMais() {
 
         {!loading && !erro && livro && (
           <section className="painel">
-            {/* Coluna esquerda: capa */}
+           
             <div className="painel__capa">
               <img
                 src={capa}
@@ -142,7 +142,7 @@ export default function VerMais() {
               />
             </div>
 
-            {/* Coluna direita: infos */}
+           
             <div className="painel__conteudo">
               <h1 className="titulo">{titulo}</h1>
               <p className="autor">{autor}</p>
