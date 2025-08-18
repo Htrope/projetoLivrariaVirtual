@@ -1,13 +1,20 @@
-
+import { useNavigate } from "react-router-dom";
 import "./styles.css";
-
 
 import logo from "../../assets/Logo.png";   
 import capa from "../../assets/capa.jpg";   
+
 export default function Login() {
+  const navigate = useNavigate();
+
+  function handleSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    // aqui poderia validar login...
+    navigate("/home"); // redireciona pra Home
+  }
+
   return (
     <div className="page">
-
       <div
         className="media"
         style={{ backgroundImage: `url(${capa})` }} 
@@ -15,10 +22,8 @@ export default function Login() {
         aria-label="Imagem de capa"
       />
 
- 
       <main className="panel">
         <header className="brand">
-         
           <img src={logo} alt="Logo" className="logo" />
         </header>
 
@@ -27,13 +32,7 @@ export default function Login() {
           <h1>Entre na sua conta</h1>
         </div>
 
-        <form
-          className="form"
-          onSubmit={(e) => {
-            e.preventDefault();
-            alert("Login enviado");
-          }}
-        >
+        <form className="form" onSubmit={handleSubmit}>
           <label className="field">
             <span className="beforeInput">E-mail</span>
             <input 
@@ -54,7 +53,13 @@ export default function Login() {
           </label>
 
           <button type="submit" className="btn primary">Entrar</button>
-          <button type="button" className="btn ghost">Cadastre-se</button>
+          <button 
+            type="button" 
+            className="btn ghost"
+            onClick={() => navigate("/home")}  /* exemplo: cadastre-se tb leva pra home */
+          >
+            Cadastre-se
+          </button>
         </form>
       </main>
     </div>

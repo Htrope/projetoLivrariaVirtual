@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 import Header from "../../components/Header";
 import "./styles.css";
 
@@ -42,18 +43,11 @@ export default function Home() {
           headers: { "Cache-Control": "no-cache" },
         });
 
-        if (res.status === 304) {
-          console.warn("304 Not Modified - mantendo lista anterior");
-          setLoading(false);
-          return;
-        }
-
         if (!res.ok) {
           throw new Error(`Falha ao carregar livros (HTTP ${res.status})`);
         }
 
         const data = await res.json();
-
         const arr = Array.isArray(data) ? data : data?.livros ?? [];
 
         const normalizados: Livro[] = arr.map((b: any) => ({
@@ -122,16 +116,35 @@ export default function Home() {
   );
 }
 
+/* ---------- helpers ---------- */
+function slugifyGeneroLabel(label: string) {
+  // remove acentos, vai pra minúsculas e troca espaços por hífen
+  return label
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/\s+/g, "-");
+}
+
+function formatarPreco(v?: number | string) {
+  const num = Number(v);
+  if (Number.isNaN(num)) return "R$ 0,00";
+  return num.toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
+}
+
+/* ---------- componentes internos ---------- */
 function Section({ titulo, livros = [] }: SectionProps) {
   if (!livros.length) return null;
+
+  const generoPath = slugifyGeneroLabel(titulo); // ex.: "Clássicos" -> "classicos"
 
   return (
     <section className="section">
       <div className="section__head">
         <h2>{titulo}</h2>
-        <a className="see-more" href="#ver-mais">
+        <Link className="see-more" to={`/genero/${generoPath}`}>
           Ver mais
-        </a>
+        </Link>
       </div>
 
       <div className="grid">
@@ -145,11 +158,12 @@ function Section({ titulo, livros = [] }: SectionProps) {
 
 function BookCard({ livro }: { livro: Livro }) {
   return (
-    <div className="card">
+    <Link to={`/detalhes/${livro.id}`} className="card">
       <div className="card__cover">
         <img
-          src={livro.capa || "https://via.placeholder.com/120x160?text=Livro"}
+          src={livro.capa || "https://placehold.co/160x220?text=Livro"}
           alt={livro.titulo}
+          loading="lazy"
         />
       </div>
 
@@ -158,12 +172,6 @@ function BookCard({ livro }: { livro: Livro }) {
         <p className="card__author">{livro.autor}</p>
         <p className="card__price">{formatarPreco(livro.preco)}</p>
       </div>
-    </div>
+    </Link>
   );
-}
-
-function formatarPreco(v?: number | string) {
-  const num = Number(v);
-  if (Number.isNaN(num)) return "R$ 0,00";
-  return num.toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
 }
